@@ -1,0 +1,24 @@
+
+<!-- saved from url=(0081)https://klevas.mif.vu.lt/~rimask/wp-content/uploads/canvas/canvas_Sierpinski.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <script type="application/javascript" src="script.js"> </script>
+ <body onload="draw();" cz-shortcut-listen="true">
+   <h1>Fractal:</h1>
+   <div>
+	<div>
+		<p id="fractalStep">5</p>
+		<input type="range" min="0" max="10" value="5" oninput="changeFractal(this.value)">
+	</div>
+	<div>
+	<button onclick="StartAnimate(1)">First Transform</button>
+	<button onclick="StartAnimate(2)">Second Transform</button>
+	</div>
+	<div>
+	<button onclick="StartAnimate(3)">Third Transform</button>
+	<button onclick="StartAnimate(4)">Fourth Transform</button>
+	</div>
+	<div>
+		<canvas id="canvas" width="500" height="500"></canvas>
+	</div>
+	</div>
+</body></html>
